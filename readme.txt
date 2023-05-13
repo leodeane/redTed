@@ -1,10 +1,12 @@
 How to use the program:
 
+-Before starting the program you will need to create a MySQL schema that will be dedicated to the use of this program (tables will be created automatically by RedTED). Be sure to remember your MySQL sign-in info and the name of the schema you created.
+
 -First, you will need to enter your Reddit API information from your
- reddit account
+ reddit account. Link to get started using PRAW (Python Reddit API Wrapper): https://praw.readthedocs.io/en/stable/getting_started/quick_start.html
 
 -Second, you will need to enter your MySQL username, password, and
- the name of the schema you will be reading/writing to
+ the name of the schema you will be reading/writing to.
 
 -You can enter the name of the subreddit you wish to save data from, the
  number of posts you want to save, and the level of comments you want to
